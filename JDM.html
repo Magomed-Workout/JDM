@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"> <!--Кодировка-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='author' content="Керимов Магомед"> <!--Автор-->
+    <meta name="description" content="Тестовый сайт"> <!--Описание сайта-->
+    <meta name='keywords' content="JDM, японки, машины"> <!--Ключевые слова-->
+    <link rel='stylesheet' href='JDM.css'> <!--Подключить CSS файл-->
+    <title>JDM</title>
+</head>
+<body>
+    <form>
+        <select onchange="if (this.value) window.location.href = this.value" class="select" title="Выбор машин">
+            <option disabled selected>-----</option>
+            <option value="GT-R R35.html">GT-R R35</option>
+            <option value="Skyline.html">Skyline</option>
+        </select>
+    </form>
+
+    <div>
+        <video class='video'src="/video/Drift.mp4" controls autoplay muted loop poster='/img/supra.jpg'></video>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:url(img/JDM.jpg)no-repeat;
+    background-size: 1920px 1100px;
+    background-attachment: fixed;
+}
+
+.car-photo {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 5px;
+    left: -750px;
+}
+
+.video {
+    width: 746px;
+    height: 330px;
+    position: relative;
+    right: -585px;
+    bottom: -1150px
+}
+
+.card {
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    position:relative;
+    top: -150px;
+
+    background-color: aqua;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+}
+
+.card-photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 30px;
+    text-align: center;
+    color: #9300ff;
+    font-family: Arial;
+}
+
+.card-text {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.card-subtitle {
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
+
+.card-list {
+    padding-left: 0;
+    list-style-position: inside;
+    font-size: 16px;
+}
