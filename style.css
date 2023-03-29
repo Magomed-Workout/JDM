@@ -29,6 +29,19 @@ body {
     }
 }
 
+@media screen and (max-width: 1199px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    #JDM {
+        font-size: 150px;
+        bottom: 45%;
+        right: 27%;
+        background-size: cover;
+    }
+}
+
 @media screen and (max-width: 575px) {
     body {
         background-size: 1500px 960px;
