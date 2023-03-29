@@ -28,3 +28,15 @@ body {
         font-size: 40px;
     }
 }
+
+@media screen and (max-width: 575px) {
+    body {
+        background-size: 1500px 960px;
+        background-position: center;
+    }
+    #JDM {
+        font-size: 30px;
+        bottom: 45%;
+        right: 26%;
+    }
+}
