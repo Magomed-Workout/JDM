@@ -90,6 +90,41 @@ body {
     }
 }
 
+@media screen and (max-width: 1199px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    .car-photo {
+        width: 630px;
+        height: 350px;
+        top: 5px;
+        left: 220px;
+    }
+    .card {
+        width: 1000px;
+        top: -530px;
+    }
+    .video {
+        width: 1045px;
+        height: 500px;
+        right: -14px;
+        top: 1935px;
+    }
+    .card-title {
+        font-size: 50px;
+    }
+    .card-subtitle {
+        font-size: 50px;
+    }
+    .card-text{
+        font-size: 27px;
+    }
+    .card-list {
+        font-size: 27px;
+    }
+}
+
 @media screen and (max-width: 575px) {
     body {
         background-size: 1500px 960px;
