@@ -1,5 +1,5 @@
 body {
-    background:url(img/JDM.jpg);
+    background:url(img/JDM.jpg)no-repeat;
     background-size: 1920px 1100px;
     background-attachment: fixed;
 }
@@ -25,6 +25,22 @@ body {
     .video {
         width: 700px;
         margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    .video {
+        width: 1030px;
+        margin-top: 900px;
+    }
+    .select {
+        width: 160px;
+        height: 55px;
+        border-radius: 10px;
     }
 }
 
