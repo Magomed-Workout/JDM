@@ -27,3 +27,14 @@ body {
         margin-top: 200px;
     }
 }
+
+@media screen and (max-width: 575px) {
+    body {
+        background-size: 1500px 960px;
+        background-position: center;
+    }
+    .video {
+        width: 550px;
+        margin-top: 300px;
+    }
+}
