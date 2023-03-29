@@ -19,7 +19,8 @@ body {
     height: 330px;
     position: relative;
     right: -585px;
-    bottom: -1150px
+    bottom: -1170px;
+    padding-bottom: 20px;
 }
 
 .card {
@@ -64,4 +65,30 @@ body {
     padding-left: 0;
     list-style-position: inside;
     font-size: 16px;
+}
+
+@media screen and (max-width: 1600px) {
+    
+    body {
+        background-size: 1600px;
+    }
+    .car-photo {
+        width: 300px;
+        height: 150px;
+        position: relative;
+        top: 5px;
+        left: -650px;
+    }
+    .card {
+        width: 450px;
+        position:relative;
+        top: -130px;
+    }
+    .video {
+        width: 700px;
+        height: 270px;
+        position: relative;
+        right: -450px;
+        bottom: -1250px
+    }
 }
