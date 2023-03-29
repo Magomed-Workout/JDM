@@ -89,3 +89,26 @@ body {
         top: 1330px
     }
 }
+
+@media screen and (max-width: 575px) {
+    body {
+        background-size: 1500px 960px;
+        background-position: center;
+    }
+    .car-photo {
+        width: 250px;
+        height: 150px;
+        top: 3px;
+        left: 155px;
+    }
+    .card {
+        width: 300px;
+        top: -290px;
+    }
+    .video {
+        width: 550px;
+        height: 270px;
+        right: -6px;
+        top: 1695px;
+    }
+}
