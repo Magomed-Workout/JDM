@@ -2,8 +2,9 @@ body {
     margin: 0;
     padding: 0;
     background:url(img/JDM.jpg)no-repeat;
-    background-size: 1920px 1100px;
+    background-size: cover;
     background-attachment: fixed;
+    font-family: monospace, sans-serif;
 }
 
 .car-photo {
@@ -19,7 +20,7 @@ body {
     height: 330px;
     position: relative;
     right: -585px;
-    bottom: -1170px;
+    bottom: -1200px;
     padding-bottom: 20px;
 }
 
@@ -47,12 +48,10 @@ body {
     font-size: 30px;
     text-align: center;
     color: #9300ff;
-    font-family: Arial;
 }
 
 .card-text {
     font-size: 16px;
-    font-family: monospace;
 }
 
 .card-subtitle {
@@ -70,49 +69,78 @@ body {
 @media screen and (max-width: 1600px) {
     
     body {
-        background-size: 1600px;
+        background-size: cover;
+        background-position: center;
     }
     .car-photo {
-        width: 300px;
-        height: 150px;
-        position: relative;
+        width: 350px;
+        height: 190px;
         top: 5px;
-        left: -650px;
+        left: -620px;
     }
     .card {
         width: 450px;
-        position:relative;
-        top: -130px;
+        top: -140px;
     }
     .video {
         width: 700px;
-        height: 270px;
-        position: relative;
+        height: 300px;
         right: -450px;
-        bottom: -1250px
+        bottom: -1275px
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1440px) {
     body {
         background-size: cover;
         background-position: center;
     }
     .car-photo {
-        width: 630px;
-        height: 350px;
-        top: 5px;
-        left: -230px;
-    }
-    .card {
-        width: 1000px;
-        top: -550px;
+        left: -550px;
     }
     .video {
-        width: 1040px;
-        height: 500px;
-        right: -20px;
-        bottom: -1465px
+        right: -375px;
+        bottom: -1260px
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    .car-photo {
+        left: -520px;
+    }
+    .card{
+        
+        top: -150px;
+    }
+    .video {
+        right: -335px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    .car-photo {
+        width: 450px;
+        height: 250px;
+        top: 5px;
+        left: -265px;
+    }
+    .card {
+        width: 700px;
+        top: -450px;
+    }
+    .video {
+        width: 950px;
+        height: 400px;
+        right: -42px;
+        bottom: -1785px;
     }
     .card-title {
         font-size: 50px;
@@ -128,26 +156,89 @@ body {
     }
 }
 
+@media screen and (max-width: 992px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    .car-photo {
+        left: -185px;
+    }
+    .video {
+        width: 800px;
+        height: 400px;
+        right: -8px;
+        bottom: -1785px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;   
+    }
+    .car-photo{
+        width: 300px;
+        height: 150px;
+        top: 2px;  
+        left: -230px; 
+    }
+    .card {
+        width: 450px;
+        top: -330px;
+    }
+    .video {
+        width: 700px;
+        height: 300px;
+        right: -33px;
+        bottom: -1185px;
+    }
+    .card-title {
+        font-size: 33px;
+    }
+    .card-subtitle {
+        font-size: 33px;
+    }
+    .card-text {
+        font-size: 17px;
+    }
+    .card-list {
+        font-size: 17px;
+    }
+}
 
 @media screen and (max-width: 575px) {
     body {
-        background-size: 1500px 960px;
+        background-size: cover;
         background-position: center;
     }
     .car-photo{
         width: 300px;
         height: 150px;
         top: 2px;
-        left: -130px;
+        left: -40px;
+            
     }
     .card {
-        width: 300px;
-        top: -305px;
+        width: 310px;
+        top: -195px;
     }
     .video {
-        width: 550px;
-        height: 270px;
-        right: -13px;
-        bottom: -1465px
+        width: 340px;
+        height: 160px;
+        right: -12px;
+        bottom: -1455px;
+    }
+    .card-title {
+        font-size: 33px;
+    }
+    .card-subtitle {
+        font-size: 33px;
+    }
+    .card-text {
+        font-size: 15px;
+    }
+    .card-list {
+        font-size: 17px;
     }
 }
