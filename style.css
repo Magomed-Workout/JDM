@@ -1,6 +1,6 @@
 body {
     background:url(img/JDM.jpg)no-repeat;
-    background-size: 1920px 1100px;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -10,7 +10,7 @@ body {
     bottom: 45%;
     right: 45%;
     background: url(img/car.jpg)no-repeat;
-    background-size: 310px 150px;
+    background-size: cover;
     background-position: center;
     box-shadow: 0 5px 100px #ccc;
     border-radius: 10px;
@@ -28,34 +28,79 @@ body {
 @media screen and (max-width: 1600px) {
     
     body {
-        background-size: 1600px;
+        background-size: cover;
+        background-position: center;
     }
     #JDM {
-        font-size: 40px;
+        font-size: 60px;
+        right: 40%;
+        background-size: cover;
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1440px) {
     body {
         background-size: cover;
         background-position: center;
     }
     #JDM {
-        font-size: 150px;
-        bottom: 45%;
-        right: 27%;
+        font-size: 50px;
+        right: 42%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    body {
         background-size: cover;
+        background-position: center;
+    }
+   #JDM {
+    right: 40%;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    #JDM {
+        font-size: 50px;
+        bottom: 45%;
+        right: 36%;
+        background-size: cover;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;  
+    }
+    #JDM {
+        font-size: 40px;
+        bottom: 45%;
+        right: 32%;
     }
 }
 
 @media screen and (max-width: 575px) {
     body {
-        background-size: 1500px 960px;
+        background-size: cover;
         background-position: center;
     }
     #JDM {
-        font-size: 30px;
+        font-size: 40px;
         bottom: 45%;
-        right: 26%;
+        right: 27%;
+        padding: 10px 50px;
     }
 }
