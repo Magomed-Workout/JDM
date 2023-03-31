@@ -210,4 +210,17 @@ body {
         right: 4px;
         top: 4105px;
     }
+
+    .card-title { 
+         font-size: 33px; 
+     } 
+     .card-subtitle { 
+         font-size: 33px; 
+     } 
+     .card-text { 
+         font-size: 15px; 
+     } 
+     .card-list { 
+         font-size: 17px; 
+     }
 }
