@@ -187,6 +187,18 @@ body {
         right: -2px;
         top: 2450px;
     }
+.card-title { 
+         font-size: 35px; 
+     } 
+     .card-subtitle { 
+         font-size: 35px; 
+     } 
+     .card-text { 
+         font-size: 17px; 
+     } 
+     .card-list { 
+         font-size: 17px; 
+     }
 }
 
 @media screen and (max-width: 575px) {
@@ -221,6 +233,6 @@ body {
          font-size: 15px; 
      } 
      .card-list { 
-         font-size: 17px; 
+         font-size: 15px; 
      }
 }
