@@ -142,7 +142,7 @@ body {
         top: 2040px;
     }
     .card-title {
-        font-size: 50px;
+        font-size: 5px;
     }
     .card-subtitle {
         font-size: 50px;
@@ -161,7 +161,7 @@ body {
         background-position: center;
     }
     .card {
-       width: 785px;
+       width: 75px;
     }
     .video {
         width: 815px;
@@ -194,7 +194,7 @@ body {
          font-size: 35px; 
      } 
      .card-text { 
-         font-size: 17px; 
+         font-size: 5px; 
      } 
      .card-list { 
          font-size: 17px; 
