@@ -207,8 +207,8 @@ body {
     .video {
         width: 365px;
         height: 160px;
-        right: 4px;
-        top: 2000px;
+        right: -20px;
+        top: 1750px;
     }
 
     .card-title { 
